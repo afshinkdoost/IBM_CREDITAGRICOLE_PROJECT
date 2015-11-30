@@ -1,0 +1,16 @@
+Comment mettre en place une solution de sécurité pour l'application de crédit agricole :
+	Pour les transaction nous pouvons mettre en place un mécanisme qui assurer une sécurité absolue irréprochable.
+	pour cela il faut fournir au moment de l'inscription de l'utilisateur au service de crédit agricole , un fichier ou une carte .pdf qui
+	contiendra un ensemble de codes jetables c'est-à-dire qu'à chaque transaction un code parmi tous les codes fourni sera demandé. Chaque 
+	code ne fonctionnera qu'une seule fois. 
+	Pour quoi cette solution marchera ?
+	Un client ne peut pas réaliser plus que 20 virements en moyenne par mois.
+	donc une quantité de 60 codes jetables pourra ainsi etre suffisant pour le besoin du client.
+	Il faut rappeller que l'application de Crédit Agricole est capable de fixer une limite pour les codes jetables restants.
+	Par exemple : En fixant une limite de 10 , l'application détectera que le quota du client arrive à son écheance bientot. Par conséquent
+	un automate génèrera automatiquement une nouvelle liste de 60 codes jetables envoyés au client par mail ou par correspondance à son
+	adresse domicile.
+	Les avantages du code de sécurtié : Ce système permettra à l'utilisateur de saisir un seul et unique code à chaque opération bancaire 
+	nécessitant la présence physique du client par exemple : un virement.
+	Ce mode de sécurité garantira qu'en cas de vol du téléphone portable du client, le voleur n'aura pas la possibilité d'abuser du compte
+	client. Aucune saisie et code fourni dans l'archive des message du client n'est fonctionnelle.

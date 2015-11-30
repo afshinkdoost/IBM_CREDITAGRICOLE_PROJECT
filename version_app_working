@@ -1,0 +1,27 @@
+
+/*
+var accountSid = 'AC15da412fc49d2f79a14aaafe7c6e228b'; 
+var authToken = '4a7e0570de0787ed69fac322334ac8e4'; 
+ 
+//require the Twilio module and create a REST client 
+
+
+
+app.get('/message', function (req, res) {
+	
+    //var client = new twilio.RestClient(twilioSid, twilioToken);
+	var client = require('twilio')(accountSid, authToken); 
+ 
+client.messages.create({ 
+	to: "+33667041767", 
+	from: "+33644607335", 
+	body: "Hello World !!",   
+}, function(err, message) { 
+	response.writeHead(200, {'Content-Type': 'text/plain'});
+    	response.end('Hello World\n');
+}); 
+});
+
+var server = app.listen(port, function () {
+  console.log('Example app started')
+});*/
